@@ -1,0 +1,26 @@
+{
+	"name": "services",
+	"title": "Kaikki palvelut",
+	"description": "Näyttää kaikki julkaistut palvelut valitussa järjestyksessä",
+	"textdomain": "premius",
+	"style": [ "file:./services.css" ],
+	"category": "design",
+	"icon": "smiley",
+	"apiVersion": 2,
+	"keywords": [ "palvelut" ],
+	"acf": {
+		"mode": "auto",
+		"renderTemplate": "services.php",
+		"postTypes": [ "page" ]
+	},
+	"supports": {
+		"align": false,
+		"anchor": false,
+		"alignContent": false,
+		"color": false,
+		"alignText": false,
+		"spacing": false,
+		"typography": false,
+		"fullHeight": false
+	}
+}

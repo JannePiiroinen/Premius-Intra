@@ -1,0 +1,26 @@
+{
+	"name": "service-booking-button",
+	"title": "Varaa aika -painike",
+	"description": "Tämän palvelun verkkoajanvaraukseen ohjaava painike",
+	"textdomain": "premius",
+	"style": [ "file:./service-booking-button.css" ],
+	"category": "design",
+	"icon": "clock",
+	"apiVersion": 2,
+	"keywords": [ "palvelu", "varaa aika", "ajanvaraus" ],
+	"acf": {
+		"mode": "auto",
+		"renderTemplate": "service-booking-button.php",
+		"postTypes": [ "service" ]
+	},
+	"supports": {
+		"align": ["left", "center", "right"],
+		"anchor": false,
+		"alignContent": false,
+		"color": false,
+		"alignText": false,
+		"spacing": false,
+		"typography": false,
+		"fullHeight": false
+	}
+}

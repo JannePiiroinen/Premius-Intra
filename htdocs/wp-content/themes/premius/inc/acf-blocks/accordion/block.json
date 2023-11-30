@@ -1,0 +1,28 @@
+{
+	"name": "accordion",
+	"title": "Haitari",
+	"description": "Avattava / suljettava \"haitari\" esim. usein kysyttyjen kysymysten näyttämiseksi.",
+	"textdomain": "premius",
+	"style": [ "file:./accordion.css" ],
+	"editorStyle": [ "file:./accordion-editor.css" ],
+	"script": "file:./accordion-init.js",
+	"category": "design",
+	"icon": "list-view",
+	"apiVersion": 2,
+	"keywords": [ "haitari", "usein kysytyt kysymykset", "UKK", "FAQ" ],
+	"acf": {
+		"mode": "auto",
+		"renderTemplate": "accordion.php",
+		"postTypes": [ "page" ]
+	},
+	"supports": {
+		"align": false,
+		"anchor": false,
+		"alignContent": false,
+		"color": false,
+		"alignText": false,
+		"spacing": false,
+		"typography": false,
+		"fullHeight": false
+	}
+}

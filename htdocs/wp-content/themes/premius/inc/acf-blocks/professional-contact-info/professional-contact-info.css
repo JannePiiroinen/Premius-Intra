@@ -1,0 +1,7 @@
+[class^="wp-container"] > .block-professional-contact-info {
+	margin-block-start: 0;
+}
+.block-professional-contact-info > .wp-block-buttons {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}

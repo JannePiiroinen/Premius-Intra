@@ -1,0 +1,52 @@
+{
+    "key": "group_acf_block_search_by_symptom",
+    "title": "Asetukset",
+    "fields": [
+        {
+            "key": "field_search_by_symptom_post_type",
+            "label": "Etsittävä sisältötyyppi",
+            "name": "post_type",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "professional": "Ammattilaiset",
+                "service": "Palvelut"
+            },
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 1,
+            "ajax": 1,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/search-by-symptom"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1678779729,
+    "local_file": "\/home2\/premius\/public_html\/wp-content\/themes\/premius\/acf-json\/group_acf_block_search_by_symptom.json",
+    "acfml_field_group_mode": "advanced"
+}

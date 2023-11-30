@@ -1,0 +1,12 @@
+.block-service-booking-button .wp-block-buttons .wp-block-button .wp-block-button__link {
+	width: 100%;
+}
+.block-service-booking-button a span span {
+	white-space: nowrap;
+}
+
+@media screen and (min-width: 64rem){
+	.block-service-booking-button .wp-block-buttons .wp-block-button .wp-block-button__link {
+		width: auto;
+	}
+}

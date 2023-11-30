@@ -1,0 +1,28 @@
+{
+	"name": "search-by-symptom",
+	"title": "Haku oireella",
+	"description": "Hae ammattilaisia tai palveluita oireen perusteella",
+	"textdomain": "premius",
+	"style": [ "file:./search-by-symptom.css" ],
+	"script": "file:./search-by-symptom.js",
+	"category": "design",
+	"icon": "search",
+	"apiVersion": 2,
+	"keywords": [ "haku", "oireella", "ammattilaiset", "palvelut" ],
+	"acf": {
+		"mode": "auto",
+		"renderTemplate": "search-by-symptom.php",
+		"postTypes": [ "page" ]
+	},
+	"supports": {
+		"align": false,
+		"anchor": false,
+		"alignContent": false,
+		"color": false,
+		"alignText": false,
+		"spacing": false,
+		"typography": false,
+		"fullHeight": false,
+		"multiple": false
+	}
+}

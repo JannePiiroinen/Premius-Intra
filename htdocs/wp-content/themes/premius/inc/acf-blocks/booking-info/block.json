@@ -1,0 +1,26 @@
+{
+	"name": "booking-info",
+	"title": "Ajanvaraus",
+	"description": "Näyttää <a href=\"/wp-admin/admin.php?page=booking-settings\" target=\"_blank\">Ajanvarausasetuksissa</a> määritellyt ajanvaraustiedot",
+	"textdomain": "premius",
+	"style": [ "file:./booking-info.css" ],
+	"category": "design",
+	"icon": "clock",
+	"apiVersion": 2,
+	"keywords": [ "varaa aika", "ajanvaraus", "yhteystiedot" ],
+	"acf": {
+		"mode": "auto",
+		"renderTemplate": "booking-info.php",
+		"postTypes": [ "page" ]
+	},
+	"supports": {
+		"align": false,
+		"anchor": false,
+		"alignContent": false,
+		"color": false,
+		"alignText": false,
+		"spacing": false,
+		"typography": false,
+		"fullHeight": false
+	}
+}

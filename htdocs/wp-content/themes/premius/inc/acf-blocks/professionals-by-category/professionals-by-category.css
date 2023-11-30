@@ -1,0 +1,11 @@
+.block-professionals-by-category {
+}
+.block-professionals-by-category .professional img {
+	display: flex;
+}
+.block-professionals-by-category .professional h3 {
+	background-color: var(--petrol);
+	color: var(--white) !important;
+	margin: 0;
+	padding: 1rem 3rem 1rem 1rem;
+}

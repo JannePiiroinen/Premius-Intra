@@ -1,0 +1,68 @@
+{
+    "key": "group_acf_settings_page_booking_web",
+    "title": "Verkkoajanvaraus",
+    "fields": [
+        {
+            "key": "field_default_title_web_booking",
+            "label": "Oletusotsikko",
+            "name": "default_title_web_booking",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Varaa aika verkossa",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_services_web_booking",
+            "label": "Palvelut",
+            "name": "services_web_booking",
+            "type": "post_object",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "service"
+            ],
+            "taxonomy": "",
+            "return_format": "object",
+            "multiple": 1,
+            "allow_null": 0,
+            "ui": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "booking-settings"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1678779730,
+    "local_file": "\/home2\/premius\/public_html\/wp-content\/themes\/premius\/acf-json\/group_acf_settings_page_booking_web.json",
+    "acfml_field_group_mode": "advanced"
+}

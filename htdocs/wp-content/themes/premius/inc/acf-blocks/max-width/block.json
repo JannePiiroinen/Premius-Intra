@@ -1,0 +1,39 @@
+{
+	"name": "max-width",
+	"title": "Maksimileveys",
+	"description": "Rajaa sisällön haluttuun leveyteen.",
+	"style": ["file:./max-width.css"],
+	"editorStyle": ["file:./max-width-editor.css"],
+	"category": "design",
+	"icon": "editor-expand",
+	"apiVersion": 2,
+	"keywords": [ "max-width", "maksimileveys", "kapea", "palsta" ],
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "max-width.php"
+	},
+	"supports": {
+		"align": ["left", "center", "right"],
+		"anchor": true,
+		"alignContent": true,
+		"color": {
+			"text": true,
+			"background": true,
+			"link": false
+		},
+		"alignText": true,
+		"spacing": {
+			"margin": [
+				"top",
+				"bottom"
+			],
+			"padding": true
+		},
+		"typography": {
+			"lineHeight": false,
+			"fontSize": false
+		},
+		"fullHeight": false
+	},
+	"textdomain": "premius"
+}

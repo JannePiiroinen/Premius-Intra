@@ -1,0 +1,80 @@
+{
+    "key": "group_acf_block_max_width",
+    "title": "Max-width",
+    "fields": [
+        {
+            "key": "field_acf_block_max_width_max_width",
+            "label": "Max width",
+            "name": "max_width",
+            "type": "button_group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "640": "640px",
+                "800": "800px",
+                "1024": "1024px",
+                "custom": "Custom"
+            },
+            "allow_null": 0,
+            "default_value": "800",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_acf_block_max_width_custom_width",
+            "label": "Custom width",
+            "name": "custom_width",
+            "type": "number",
+            "instructions": "Try to use same widths through the site for best visual consistency and only use custom width for special cases.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_acf_block_max_width_max_width",
+                        "operator": "==",
+                        "value": "custom"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "px",
+            "min": 500,
+            "max": 1440,
+            "step": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/max-width"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": false,
+    "modified": 1678779730,
+    "local_file": "\/home2\/premius\/public_html\/wp-content\/themes\/premius\/acf-json\/group_acf_block_max_width.json",
+    "acfml_field_group_mode": "advanced"
+}

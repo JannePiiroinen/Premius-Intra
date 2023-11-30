@@ -1,0 +1,27 @@
+{
+	"name": "location-contact-info",
+	"title": "Toimipisteen yhteystiedot",
+	"description": "Toimipisteen yhteystiedot ja kartta",
+	"textdomain": "premius",
+	"style": [ "file:./location-contact-info.css" ],
+	"script":  "file:./location-contact-info.js",
+	"category": "design",
+	"icon": "location-alt",
+	"apiVersion": 2,
+	"keywords": [ "toimipiste", "yhteystiedot" ],
+	"acf": {
+		"mode": "auto",
+		"renderTemplate": "location-contact-info.php",
+		"postTypes": [ "page", "location" ]
+	},
+	"supports": {
+		"align": false,
+		"anchor": false,
+		"alignContent": false,
+		"color": false,
+		"alignText": false,
+		"spacing": false,
+		"typography": false,
+		"fullHeight": false
+	}
+}

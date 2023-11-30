@@ -1,0 +1,46 @@
+{
+    "key": "group_acf_block_professional_contact_info",
+    "title": "Yhteystiedot",
+    "fields": [
+        {
+            "key": "field_professional_custom_contact_info",
+            "label": "Yhteystiedot",
+            "name": "custom_contact_info",
+            "type": "wysiwyg",
+            "instructions": "Mikäli asetettu, näytetään toimipisteen yhteystietojen tilalla.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "delay": 0,
+            "tabs": "all",
+            "toolbar": "basic",
+            "media_upload": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/professional-contact-info"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1678779731,
+    "local_file": "\/home2\/premius\/public_html\/wp-content\/themes\/premius\/acf-json\/group_acf_block_professional_contact_info.json",
+    "acfml_field_group_mode": "advanced"
+}

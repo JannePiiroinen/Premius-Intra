@@ -1,0 +1,93 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Booming Starter Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-22 16:39+0000\n"
+"PO-Revision-Date: 2022-09-22 17:10+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.2\n"
+"X-Domain: bst"
+
+#: template-parts/content.php:40
+msgid "Aiheet"
+msgstr "Topics"
+
+#: inc/theme-modules/acf-functions.php:85
+msgid "Alatunniste"
+msgstr "Footer"
+
+#. Description of the theme
+msgid "Booming pohjateema - Älä muokkaa tai poista"
+msgstr "Booming starter theme - Do not edit directly or delete"
+
+#. Name of the theme
+msgid "Booming Starter Theme"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Ei näytettäviä artikkeleita."
+msgstr "No articles to show"
+
+#: 404.php:29
+msgid "Hakemaasi sivua ei löytynyt"
+msgstr "Page not found"
+
+#. Author URI of the theme
+msgid "https://oskarioksanen.fi"
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.booming.fi/"
+msgstr ""
+
+#: template-parts/content.php:53
+#| msgid "Jaa:"
+msgid "Jaa"
+msgstr "Share"
+
+#: template-parts/content.php:57
+msgid "Jaa Facebookissa"
+msgstr "Share on Facebook"
+
+#: template-parts/content.php:65
+msgid "Jaa LinkedInissä"
+msgstr "Share on LinkedIn"
+
+#: template-parts/content.php:61
+msgid "Jaa Twitterissä"
+msgstr "Share on Twitter"
+
+#: index.php:58
+msgid "Lue lisää"
+msgstr "Read more"
+
+#. Author of the theme
+msgid "Oskari Oksanen"
+msgstr ""
+
+#: functions.php:36
+msgid "Päävalikko"
+msgstr "Main menu"
+
+#: inc/theme-modules/acf-functions.php:137
+msgid "Skriptit"
+msgstr "Scripts"
+
+#: inc/theme-modules/acf-functions.php:81
+msgid "Teeman asetukset"
+msgstr "Theme settings"
+
+#: index.php:86
+msgid "Uudemmat artikkelit"
+msgstr "Newer articles"
+
+#: index.php:71 index.php:80
+msgid "Vanhemmat artikkelit"
+msgstr "Older articles"

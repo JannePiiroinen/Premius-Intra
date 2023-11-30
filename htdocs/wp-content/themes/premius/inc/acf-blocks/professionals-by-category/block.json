@@ -1,0 +1,26 @@
+{
+	"name": "professionals-by-category",
+	"title": "Ammattilaisryhmän henkilöt",
+	"description": "Näyttää ammattilaiset valitusta ryhmästä / kategoriasta",
+	"textdomain": "premius",
+	"style": [ "file:./professionals-by-category.css" ],
+	"category": "design",
+	"icon": "groups",
+	"apiVersion": 2,
+	"keywords": [ "ammattilaisryhmä", "ammattilaiset" ],
+	"acf": {
+		"mode": "auto",
+		"renderTemplate": "professionals-by-category.php",
+		"postTypes": [ "page" ]
+	},
+	"supports": {
+		"align": false,
+		"anchor": false,
+		"alignContent": false,
+		"color": false,
+		"alignText": false,
+		"spacing": false,
+		"typography": false,
+		"fullHeight": false
+	}
+}

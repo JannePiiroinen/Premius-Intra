@@ -1,0 +1,26 @@
+{
+	"name": "latest-posts",
+	"title": "Viimeisimmät artikkelit",
+	"description": "Näyttää valitun sisältötyypin viimeisimmät artikkelit",
+	"textdomain": "premius",
+	"style": [ "file:./latest-posts.css" ],
+	"category": "design",
+	"icon": "media-text",
+	"apiVersion": 2,
+	"keywords": [ "uusimmat", "viimeisimmät", "artikkelit" ],
+	"acf": {
+		"mode": "auto",
+		"renderTemplate": "latest-posts.php",
+		"postTypes": [ "page" ]
+	},
+	"supports": {
+		"align": false,
+		"anchor": false,
+		"alignContent": false,
+		"color": false,
+		"alignText": false,
+		"spacing": false,
+		"typography": false,
+		"fullHeight": false
+	}
+}

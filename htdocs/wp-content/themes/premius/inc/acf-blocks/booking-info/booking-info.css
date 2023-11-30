@@ -1,0 +1,112 @@
+.block-booking-info {
+	height: 100%;
+	margin-bottom: var(--block-margin-small);
+	width: 100%;
+}
+.block-booking-info:last-child {
+	margin-bottom: 0;
+}
+.block-booking-info h3 {
+	background-color: var(--petrol);
+	color: var(--white) !important;
+	margin: 0 !important;
+	padding: 1rem 1rem 1rem 3.5rem;
+	position: relative;
+}
+.block-booking-info.booking-type-web h3::before {
+	content: "";
+	display: inline-block;
+	height: 32px;
+	background-image: url('../../../img/icon-booking-web.svg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	left: 1rem;
+	margin-right: 1rem;
+	position: absolute;
+	top: 0.9rem;
+	width: 32px;
+}
+.block-booking-info.booking-type-tel h3::before {
+	content: "";
+	display: inline-block;
+	height: 26px;
+	background-image: url('../../../img/icon-booking-tel.svg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	left: 1.25rem;
+	margin-right: 1rem;
+	position: absolute;
+	top: 1.15rem;
+	width: 26px;
+}
+.block-booking-info .booking-info-container {
+	border: 1px solid var(--light-gray);
+	border-top: 0;
+	height: 100%;
+}
+.block-booking-info .wp-block-buttons {
+	margin-top: 0;
+}
+.block-booking-info .wp-block-buttons > .wp-block-button .wp-block-button__link {
+	width: 100%;
+}
+.block-booking-info .wp-block-buttons .wp-block-button .wp-block-button__link img {
+	border-radius: 0;
+	display: inline-block;
+	height: 36px;
+	margin-left: 0;
+	position: relative;
+	top: -4px;
+	width: 36px;
+	margin-right: 1rem;
+	margin-bottom: -8px;
+}
+.block-booking-info .wp-block-buttons > .wp-block-button:not(:last-child) {
+	/*margin-bottom: 1rem !important;*/
+}
+.booking-info-section {
+	color: var(--petrol);
+	font-size: 1rem;
+	padding: 1rem;
+}
+.booking-info-section .extra-padding {
+	padding: 1rem;
+}
+.booking-info-section strong {
+	font-family: var(--button-font-family);
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+}
+.booking-info-section .booking-num:not(:first-child) {
+	margin-top: 1rem;
+}
+.booking-info-section .booking-num:last-child {
+	margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 40em) {
+	div:not(.wp-block) > .wp-block-acf-booking-info > .block-booking-info .booking-info-container,
+	main > .block-booking-info .booking-info-container {
+		flex-direction: row;
+	}
+	div:not(.wp-block) > .wp-block-acf-booking-info > .block-booking-info .booking-info-section,
+	main > .block-booking-info .booking-info-section {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 50%;
+	}
+	.block-booking-info.booking-type-web .booking-info-section {
+	}
+	div:not(.wp-block) > .wp-block-acf-booking-info > .block-booking-info .booking-info-section:not(:first-child),
+	main > .block-booking-info .booking-info-section:not(:first-child) {
+		border-left: 1px solid var(--light-gray);
+	}
+}
+@media screen and (min-width: 64em) {
+	.booking-info-section .extra-padding {
+		padding: 1rem 1.5rem;
+	}
+}

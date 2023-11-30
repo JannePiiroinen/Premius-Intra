@@ -1,0 +1,12 @@
+.block-service-locations {
+}
+ul.service-locations {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	flex: 1 0 20%;
+	gap: var(--block-gap);
+}
+ul.service-locations a {
+	display: inline-block;
+}

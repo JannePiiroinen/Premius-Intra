@@ -1,0 +1,21 @@
+/**
+ * Max-width
+ */
+
+.editor-styles-wrapper .wp-block-acf-max-width {
+	margin-block-end: var(--block-margin) !important;
+	min-width: 100%;
+	width: 100%;
+}
+.editor-styles-wrapper .block-max-width {
+	margin-block-end: 0;
+}
+.editor-styles-wrapper .wp-block-acf-max-width .block-max-width__inner > .wp-block {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}

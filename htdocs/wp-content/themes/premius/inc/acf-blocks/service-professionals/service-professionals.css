@@ -1,0 +1,11 @@
+.block-service-professionals {
+}
+.block-service-professionals .professional img {
+	display: flex;
+}
+.block-service-professionals .professional h3 {
+	background-color: var(--petrol);
+	color: var(--white) !important;
+	margin: 0;
+	padding: 1rem 3rem 1rem 1rem;
+}

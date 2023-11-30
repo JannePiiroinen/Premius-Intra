@@ -1,0 +1,39 @@
+.block-services {
+
+}
+.block-services .wp-block-buttons.service-list {
+	gap: 1rem;
+}
+.block-services .wp-block-buttons.service-list .wp-block-button {
+	flex: 1 0 100%;
+	max-width: 100%;
+}
+.block-services .wp-block-buttons.service-list .wp-block-button .wp-block-button__link {
+	min-height: 80px;
+	width: 100%;
+}
+.block-services .wp-block-buttons .wp-block-button.is-style-arrow .wp-block-button__link.has-white-background-color.has-background:hover,
+.block-services .wp-block-buttons .wp-block-button.is-style-arrow .wp-block-button__link.has-white-background-color.has-background:active,
+.block-services .wp-block-buttons .wp-block-button.is-style-arrow .wp-block-button__link.has-white-background-color.has-background:focus {
+	background-color: var(--petrol) !important;
+	color: var(--white);
+}
+.block-services .wp-block-buttons .wp-block-button.is-style-arrow .wp-block-button__link.has-white-background-color.has-background:hover::after,
+.block-services .wp-block-buttons .wp-block-button.is-style-arrow .wp-block-button__link.has-white-background-color.has-background:active::after,
+.block-services .wp-block-buttons .wp-block-button.is-style-arrow .wp-block-button__link.has-white-background-color.has-background:focus::after {
+	background-color: var(--white);
+}
+
+@media screen and (min-width: 40em) {
+	.block-services .wp-block-buttons.service-list .wp-block-button {
+		flex: 1 0 calc( 50% - 0.5rem );
+		max-width: calc( 50% - 0.5rem );
+	}
+}
+
+@media screen and (min-width: 64em) {
+	.block-services .wp-block-buttons.service-list .wp-block-button {
+		flex: 1 0 calc( 33.333% - 0.67rem );
+		max-width: calc( 33.333% - 0.67rem );
+	}
+}

@@ -1,0 +1,18 @@
+[class^="wp-container"] > .block-professional-services {
+	margin-block-start: 0;
+}
+.block-professional-services .wp-block-buttons {
+	margin-top: 0;
+}
+.block-professional-services .wp-block-button {
+	/*margin-block-end: 1rem;*/
+}
+.block-professional-services a.wp-block-button__link {
+	width: 100%;
+}
+
+@media screen and (min-width: 64em) {
+	.block-professional-services a.wp-block-button__link {
+		width: 66.667%;
+	}
+}

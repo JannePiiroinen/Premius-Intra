@@ -1,0 +1,26 @@
+{
+	"name": "professional-services",
+	"title": "Ammattilaisen palvelut",
+	"description": "Näyttää ammattilaisen palvelut",
+	"textdomain": "premius",
+	"style": [ "file:./professional-services.css" ],
+	"category": "design",
+	"icon": "list-view",
+	"apiVersion": 2,
+	"keywords": [ "palvelut" ],
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "professional-services.php",
+		"postTypes": [ "professional" ]
+	},
+	"supports": {
+		"align": false,
+		"anchor": false,
+		"alignContent": false,
+		"color": false,
+		"alignText": false,
+		"spacing": false,
+		"typography": false,
+		"fullHeight": false
+	}
+}

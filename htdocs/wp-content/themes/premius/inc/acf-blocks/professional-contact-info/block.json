@@ -1,0 +1,26 @@
+{
+	"name": "professional-contact-info",
+	"title": "Ammattilaisen yhteystiedot",
+	"description": "Näyttää ammattilaisen yhteystiedot",
+	"textdomain": "premius",
+	"style": [ "file:./professional-contact-info.css" ],
+	"category": "design",
+	"icon": "calendar",
+	"apiVersion": 2,
+	"keywords": [ "yhteystiedot", "varaa aika", "ajanvaraus" ],
+	"acf": {
+		"mode": "auto",
+		"renderTemplate": "professional-contact-info.php",
+		"postTypes": [ "professional" ]
+	},
+	"supports": {
+		"align": false,
+		"anchor": false,
+		"alignContent": false,
+		"color": false,
+		"alignText": false,
+		"spacing": false,
+		"typography": false,
+		"fullHeight": false
+	}
+}

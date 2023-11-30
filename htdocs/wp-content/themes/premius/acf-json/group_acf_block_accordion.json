@@ -1,0 +1,109 @@
+{
+    "key": "group_acf_block_accordion",
+    "title": "Haitari",
+    "fields": [
+        {
+            "key": "field_acf_block_accordion_items",
+            "label": "Osiot",
+            "name": "accordion_items",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "field_accordion_item_heading",
+            "button_label": "Lisää osio",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_accordion_item_heading",
+                    "label": "Otsikko",
+                    "name": "accordion_item_heading",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_acf_block_accordion_items"
+                },
+                {
+                    "key": "field_accordion_item_content",
+                    "label": "Sisältö",
+                    "name": "accordion_item_content",
+                    "type": "wysiwyg",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "delay": 0,
+                    "tabs": "all",
+                    "toolbar": "full",
+                    "media_upload": 0,
+                    "parent_repeater": "field_acf_block_accordion_items"
+                }
+            ]
+        },
+        {
+            "key": "field_output_faq_schema",
+            "label": "Tulosta FAQ jäsennelty data",
+            "name": "output_faq_schema",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "Kyllä",
+            "ui_off_text": "Ei"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/accordion"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1678779729,
+    "local_file": "\/home2\/premius\/public_html\/wp-content\/themes\/premius\/acf-json\/group_acf_block_accordion.json",
+    "acfml_field_group_mode": "advanced"
+}

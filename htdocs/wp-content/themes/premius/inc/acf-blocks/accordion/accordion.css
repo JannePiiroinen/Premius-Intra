@@ -1,0 +1,52 @@
+.block-accordion {
+	margin-bottom: var(--block-margin);
+}
+.block-accordion .accordion-container {
+	color: var(--inherit);
+	max-width: 100%;
+	width: 100%;
+}
+
+.block-accordion .accordion-container .ac {
+	margin-top: 0;
+	border: 1px solid var(--light-gray);
+	background-color: var(--white);
+}
+.block-accordion .accordion-container .ac + .ac {
+	margin-top: 0;
+	border-top: 0;
+	background-color: var(--white);
+}
+.block-accordion .accordion-container .ac .ac-trigger {
+	font: inherit;
+	font-size: var(--h6-font-size);
+	color: var(--inherit);
+	padding: 1.5rem 3.25rem 1.5rem var(--block-gap-half);
+	text-align: center;
+	text-transform: uppercase;
+}
+.block-accordion .accordion-container .ac button.ac-trigger {
+	background-color: var(--white);
+	border-radius: 0;
+}
+.block-accordion .accordion-container .ac .ac-trigger::after {
+	background-color: var(--petrol);
+	content: "";
+	display: inline-block;
+	height: 28px;
+	background: transparent url('img/button-arrow.svg') center no-repeat;
+	position: absolute;
+	right: var(--block-gap-half);
+	transform-origin: center;
+	transform: rotate(90deg);
+	-webkit-transition: all var(--transition-duration) var(--transition-easing);
+	transition: all var(--transition-duration) var(--transition-easing);
+	top: calc( 50% - 14px );
+	width: 28px;
+}
+.block-accordion .accordion-container .ac.is-active .ac-trigger::after {
+	transform: rotate(90deg) rotateY(180deg);
+}
+.block-accordion .accordion-container .ac .ac-panel > div {
+	padding: 0 var(--block-gap-half) var(--block-gap-half);
+}

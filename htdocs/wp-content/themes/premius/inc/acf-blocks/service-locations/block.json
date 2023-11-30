@@ -1,0 +1,26 @@
+{
+	"name": "service-locations",
+	"title": "Palvelun toimipisteet",
+	"description": "Listaa toimipisteet, joissa tämä palvelu on saatavilla",
+	"textdomain": "premius",
+	"style": [ "file:./service-locations.css" ],
+	"category": "design",
+	"icon": "location-alt",
+	"apiVersion": 2,
+	"keywords": [ "palvelu", "toimipiste" ],
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "service-locations.php",
+		"postTypes": [ "service" ]
+	},
+	"supports": {
+		"align": false,
+		"anchor": false,
+		"alignContent": false,
+		"color": false,
+		"alignText": false,
+		"spacing": false,
+		"typography": false,
+		"fullHeight": false
+	}
+}

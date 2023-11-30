@@ -1,0 +1,70 @@
+{
+    "key": "group_acf_block_booking_info",
+    "title": "Ajanvaraus",
+    "fields": [
+        {
+            "key": "field_booking_info_type",
+            "label": "Näytettävät tiedot",
+            "name": "booking_info_type",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "web": "Verkkoajanvaraus",
+                "tel": "Puhelinajanvaraus"
+            },
+            "default_value": "",
+            "return_format": "value",
+            "allow_null": 0,
+            "other_choice": 0,
+            "layout": "vertical",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_custom_title",
+            "label": "Oma otsikko",
+            "name": "custom_title",
+            "type": "text",
+            "instructions": "Jos tyhjä, käytetään Ajanvarausasetuksissa asetettua oletusotsikkoa.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/booking-info"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1678779727,
+    "local_file": "\/home2\/premius\/public_html\/wp-content\/themes\/premius\/acf-json\/group_acf_block_booking_info.json",
+    "acfml_field_group_mode": "advanced"
+}

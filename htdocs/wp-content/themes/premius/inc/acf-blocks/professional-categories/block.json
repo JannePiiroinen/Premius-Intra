@@ -1,0 +1,26 @@
+{
+	"name": "professional-categories",
+	"title": "Ammattilaisryhmät",
+	"description": "Näyttää kaikki ammattilaisryhmät / kategoriat",
+	"textdomain": "premius",
+	"style": [ "file:./professional-categories.css" ],
+	"category": "design",
+	"icon": "groups",
+	"apiVersion": 2,
+	"keywords": [ "ammattilaisryhmät", "kategoriat" ],
+	"acf": {
+		"mode": "auto",
+		"renderTemplate": "professional-categories.php",
+		"postTypes": [ "page" ]
+	},
+	"supports": {
+		"align": false,
+		"anchor": false,
+		"alignContent": false,
+		"color": false,
+		"alignText": false,
+		"spacing": false,
+		"typography": false,
+		"fullHeight": false
+	}
+}

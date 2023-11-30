@@ -1,0 +1,203 @@
+@import url(https://use.typekit.net/udh2isa.css);
+/** 
+ * Root variables 
+ */
+
+:root {
+
+
+	/**
+	 * Colors
+	 */
+	--petrol: #006781;
+	--bronze: #D29F1C;
+	--light-blue-1: #5BC3F5;
+	--light-blue-2: #ADE0F9;
+	--light-blue-3: #DEF2FC;
+	--sand: #E0D3B4;
+	--light-sand: #F9F6F0;
+	--black: #000000;
+	--light-gray: #DEDDDD;
+	--gray: #707070;
+	--white: #ffffff;
+
+	--primary-color: var(--petrol);
+	--secondary-color: var(--bronze);
+
+
+	/** 
+	 * Measurements
+	 */
+
+	--adminbar-height: 46px;
+	--header-height: 72px;
+	--adminbar-header-height: calc( var(--adminbar-height) + var(--header-height) );
+
+	--content-padding: calc( var(--header-height) + var(--block-margin-small) );
+	--content-padding-bottom-negative: var(--block-margin-negative); /* Used for last covers etc */
+	--content-padding-top-negative: calc( var(--content-padding) * -1 ); /* Used for first covers etc */
+	--content-width: 80rem;
+	--content-width-half: calc( 40rem - var(--block-gap-half) );
+
+	/**
+	 * Block spacing
+	 */
+	--block-margin: clamp(3rem, 5vw, 6rem);
+	--block-margin-negative: calc( var(--block-margin) * -1 );
+	--block-margin-small: clamp(2rem, 5vw, 4rem);
+	--block-margin-small-negative: calc( var(--block-margin-small) * -1 );
+	--block-margin-xsmall: clamp(1rem, 3vw, 2rem);
+
+	--block-padding: var(--block-margin);
+	--block-padding-negative: var(--block-margin-negative);
+	--block-padding-small: var(--block-margin-small);
+	--block-padding-small-negative: var(--block-margin-small-negative);
+	--block-padding-xsmall: var(--block-margin-xsmall);
+
+	--block-gap: clamp(2rem, 5vw, 4rem);
+	--block-gap-half: calc( clamp(2rem, 5vw, 4rem) / 2 );
+	--block-gap-half-negative: calc( var(--block-gap-half) * -1 );
+
+	--block-gap-small: 1rem;
+	--block-gap-small-half: 0.5rem;
+	--block-gap-small-half-negative: -0.5rem;
+
+
+	/** 
+	 * Styling 
+	 */
+
+	/* Common */
+	--border-radius: 0;
+
+	/* Forms */
+	--input-border-radius: var(--border-radius);
+	--input-padding: 1rem 1.5rem;
+
+	/* Buttons */
+	--button-border-radius: 0;
+	--button-padding: 1rem 1.5rem;
+
+
+	/** 
+	 * Fonts, font-sizes and colors 
+	 */
+
+	/* Body */
+	--body-background-color: var(--white);
+	--body-font-family: 'proxima-nova', sans-serif;
+	--body-font-size: 1.125rem;
+	--body-font-weight: 400;
+	--body-line-height: 1.4;
+	--body-color: #333333;
+
+	/* Header */
+	--header-background-color: var(--white);
+	--header-hover-background-color: var(--white);
+
+	/* Footer */
+	--footer-background-color: var(--petrol);
+
+	/* Headings */
+	--heading-color: var(--petrol);
+	--heading-font-family: 'proxima-soft', sans-serif;
+	--heading-font-weight: 600;
+	--h1-font-size: clamp(2.25rem, 4.5vw, 4.5rem);
+	--h2-font-size: clamp(1.85rem, 3.5vw, 3.25rem);
+	--h3-font-size: clamp(1.45rem, 2.9vw, 2rem);
+	--h4-font-size: clamp(1.25rem, 2.75vw, 1.75rem);
+	--h5-font-size: clamp(1.125rem, 2.2vw, 1.5rem);
+	--h6-font-size: clamp(1.125rem, 1.9vw, 1.25rem);
+	--post-title-font-size: clamp(1.125rem, 1.5vw, 1.25rem);
+
+	/* Forms */
+	--label-color: var(--petrol);
+	--label-font-size: 0.875rem;
+	--label-font-family: 'proxima-nova', sans-serif;
+	--label-font-weight: 500;
+	--input-color: var(--body-color);
+	--input-font-size: var(--body-font-size);
+	--input-border-color: var(--light-gray);
+	--placeholder-color: var(--light-gray);
+
+	/* Buttons */
+	--button-font-family: 'proxima-soft', sans-serif;
+	--button-font-size: 1rem;
+	--button-font-weight: 600;
+	--button-primary-background: var(--petrol);
+	--button-primary-hover-background: var(--light-blue-3);
+	--button-primary-color: var(--white);
+	--button-primary-hover-color: var(--petrol);
+
+	/* Navigation */
+	--navigation-font-family: 'proxima-nova', sans-serif;
+	--navigation-font-size: 1.25rem;
+	--navigation-font-weight: 500;
+	--navigation-link-color: var(--petrol);
+	--navigation-link-hover-color: var(--petrol);
+	--footer-navigation-link-color: var(--white);
+	--footer-navigation-link-hover-color: var(--white);
+	--menu-toggle-color: rgba(0, 103, 129, 1);
+	--menu-toggle-transparent: rgba(0, 103, 129, 0);
+	--mobile-menu-background: var(--white);
+	--link-color: var(--petrol);
+	--link-hover-color: var(--petrol);
+	--link-font-weight: 700;
+
+	/* Selection */
+	--selection-background: var(--petrol);
+	--selection-color: var(--white);
+
+
+	/** 
+	 * Animations & transitions 
+	 */
+
+	--transition-duration: .25s;
+	--transition-easing: ease-in-out;
+
+}
+
+@media screen and ( min-width: 783px ){
+	:root {
+
+		/** 
+		 * Measurements
+		 */
+		--adminbar-height: 32px;
+		--adminbar-header-height: calc( var(--adminbar-height) + var(--header-height) );
+
+	}
+}
+
+@media screen and ( min-width: 64rem ){
+	:root {
+
+		/** 
+		 * Measurements
+		 */
+		--header-height: 80px;
+
+
+		/** 
+		 * Fonts, font-sizes and colors 
+		 */
+
+		/* Navigation */
+		--navigation-font-size: 1.125rem;
+		
+	}
+}
+
+
+/** 
+ * Selector specific variables 
+ */
+
+/*.admin-bar * {
+	--header-height: var(--adminbar-header-height);
+}*/
+
+@media screen and ( min-width: 64rem ){
+}
+body#tinymce.wp-editor{color:var(--body-color);font-family:var(--body-font-family);font-size:18px;font-size:var(--body-font-size);font-weight:var(--body-font-weight);line-height:1.5;text-rendering:optimizeLegibility}

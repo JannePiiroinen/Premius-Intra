@@ -1,0 +1,26 @@
+{
+	"name": "service-professionals",
+	"title": "Palvelun ammattilaiset",
+	"description": "Listaa tämän palvelun ammattilaiset",
+	"textdomain": "premius",
+	"style": [ "file:./service-professionals.css" ],
+	"category": "design",
+	"icon": "groups",
+	"apiVersion": 2,
+	"keywords": [ "palvelu", "ammattilaiset" ],
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "service-professionals.php",
+		"postTypes": [ "service" ]
+	},
+	"supports": {
+		"align": false,
+		"anchor": false,
+		"alignContent": false,
+		"color": false,
+		"alignText": false,
+		"spacing": false,
+		"typography": false,
+		"fullHeight": false
+	}
+}

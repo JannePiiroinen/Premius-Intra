@@ -1,0 +1,270 @@
+{
+	"version": 2,
+	"styles": {
+		"spacing": {
+			"blockGap": "var(--block-gap)"
+		}
+	},
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"customGradient": false,
+			"customDuotone": false,
+			"duotone": [],
+			"gradients": [],
+			"link": true,
+			"background": true,
+			"text": true,
+			"palette": [
+				{
+					"name": "Petrooli",
+					"slug": "petrol",
+					"color": "#006781"
+				},
+				{
+					"name": "Pronssi",
+					"slug": "bronze",
+					"color": "#D29F1C"
+				},
+				{
+					"name": "Vaalean sininen 1",
+					"slug": "light-blue-1",
+					"color": "#5BC3F5"
+				},
+				{
+					"name": "Vaalean sininen 2",
+					"slug": "light-blue-2",
+					"color": "#ADE0F9"
+				},
+				{
+					"name": "Vaalean sininen 3",
+					"slug": "light-blue-3",
+					"color": "#DEF2FC"
+				},
+				{
+					"name": "Hiekka",
+					"slug": "sand",
+					"color": "#E0D3B4"
+				},
+				{
+					"name": "Vaalea hiekka",
+					"slug": "light-sand",
+					"color": "#F9F6F0"
+				},
+				{
+					"name": "Musta",
+					"slug": "black",
+					"color": "#000000"
+				},
+				{
+					"name": "Harmaa",
+					"slug": "gray",
+					"color": "#E7E8E4"
+				},
+				{
+					"name": "Vaalean harmaa",
+					"slug": "light-gray",
+					"color": "#DEDDDD"
+				},
+				{
+					"name": "Valkoinen",
+					"slug": "white",
+					"color": "#FFFFFF"
+				}
+			]
+		},
+		"custom": {},
+		"layout": {
+			"contentSize": "var(--content-width)"
+		},
+		"spacing": {
+			"blockGap": true,
+			"customMargin": true,
+			"customPadding": true,
+			"units": [ "px", "rem", "vh", "vw", "%" ]
+		},
+		"typography": {
+			"customFontSize": false,
+			"customLineHeight": false,
+			"dropCap": false,
+			"fontSizes": [
+				{
+					"name": "Small",
+					"slug": "small",
+					"size": "calc( var(--body-font-size) * 0.875 )"
+				},
+				{
+					"name": "Default",
+					"slug": "default",
+					"size": "var(--body-font-size)"
+				},
+				{
+					"name": "Large",
+					"slug": "large",
+					"size": "calc( var(--body-font-size) * 1.25 )"
+				}
+			]
+		},
+		"blocks": {
+			"core/cover": {
+				"color": {},
+				"custom": {},
+				"layout": {},
+				"spacing": {
+					"blockGap": true,
+					"customMargin": true,
+					"customPadding": true,
+					"units": [ "px", "rem", "vh", "vw", "%" ]
+				},
+				"typography": {}
+			},
+			"core/image": {
+				"color": {},
+				"custom": {},
+				"layout": {},
+				"spacing": {
+					"blockGap": true,
+					"customMargin": true,
+					"customPadding": true,
+					"units": [ "px", "rem", "vh", "vw", "%" ]
+				},
+				"typography": {}
+			},
+			"core/columns": {
+				"color": {},
+				"custom": {},
+				"layout": {},
+				"spacing": {
+					"blockGap": true,
+					"customMargin": true,
+					"customPadding": true,
+					"units": [ "px", "rem", "vh", "vw", "%" ]
+				},
+				"typography": {}
+			},
+			"core/paragraph": {
+				"color": {},
+				"custom": {},
+				"layout": {},
+				"spacing": {
+					"blockGap": false
+				},
+				"typography": {}
+			},
+			"core/heading": {
+				"color": {},
+				"custom": {},
+				"layout": {},
+				"spacing": {
+					"blockGap": false
+				},
+				"typography": {
+					"customFontSize": true,
+					"fontSizes": [
+						{
+							"slug": "heading1",
+							"size": "var(--h1-font-size)",
+							"name": "H1"
+						},
+						{
+							"slug": "heading2",
+							"size": "var(--h2-font-size)",
+							"name": "H2"
+						},
+						{
+							"slug": "heading3",
+							"size": "var(--h3-font-size)",
+							"name": "H3"
+						},
+						{
+							"slug": "heading4",
+							"size": "var(--h4-font-size)",
+							"name": "H4"
+						},
+						{
+							"slug": "heading5",
+							"size": "var(--h5-font-size)",
+							"name": "H5"
+						},
+						{
+							"slug": "heading6",
+							"size": "var(--h6-font-size)",
+							"name": "H6"
+						}
+					]
+				}
+			},
+			"core/button": {
+				"border": {
+					"radius": false
+				},
+				"color": {
+					"palette": [
+						{
+							"name": "Petrooli",
+							"slug": "petrol",
+							"color": "#006781"
+						},
+						{
+							"name": "Pronssi",
+							"slug": "bronze",
+							"color": "#D29F1C"
+						},
+						{
+							"name": "Vaalean sininen 1",
+							"slug": "bronze",
+							"color": "#5BC3F5"
+						},
+						{
+							"name": "Vaalean sininen 2",
+							"slug": "bronze",
+							"color": "#ADE0F9"
+						},
+						{
+							"name": "Vaalean sininen 3",
+							"slug": "bronze",
+							"color": "#DEF2FC"
+						},
+						{
+							"name": "Hiekka",
+							"slug": "sand",
+							"color": "#E0D3B4"
+						},
+						{
+							"name": "Vaalea hiekka",
+							"slug": "light-sand",
+							"color": "#F9F6F0"
+						},
+						{
+							"name": "Musta",
+							"slug": "black",
+							"color": "#000"
+						},
+						{
+							"name": "Harmaa",
+							"slug": "gray",
+							"color": "#E7E8E4"
+						},
+						{
+							"name": "Vaalean harmaa",
+							"slug": "light-gray",
+							"color": "#DEDDDD"
+						},
+						{
+							"name": "Valkoinen",
+							"slug": "white",
+							"color": "#FFFFFF"
+						},
+						{
+							"name": "Läpinäkyvä",
+							"slug": "transparent",
+							"color": "rgba(0, 0, 0, 0)"
+						}
+					]
+				}
+			}
+		}
+	}
+}
